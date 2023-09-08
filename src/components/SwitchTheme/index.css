@@ -1,0 +1,19 @@
+.switch {
+  background: url('/public/assets/images/switch-theme-light.svg') 100% / cover;
+}
+.dark .switch {
+  background: url('/public/assets/images/switch-theme-dark.svg') 100% / cover;
+}
+
+.switch > input:checked + span {
+  margin-left: 60%;
+}
+.switch .slider {
+  background: url('/public/assets/images/switch-theme-slider-light.svg') 100% / cover;
+}
+.dark .switch .slider {
+  background: url('/public/assets/images/switch-theme-slider-dark.svg') 100% / cover;
+}
+.switch .slider {
+  box-shadow: 0px 0px 3px 0px black;
+}
